@@ -1,0 +1,280 @@
+*{
+	margin:0px;
+ 	padding:0px;
+	font-family: tahoma;
+
+ }
+
+.fbheader_area{
+	background: linear-gradient(#4C68A1,#3B5998);
+	padding-bottom: 4px;
+	overflow: hidden;
+
+}
+.mid{
+	width:80%;
+	margin:0px auto;
+	overflow: hidden;
+}
+.logo_area{
+	width:60%;
+	float: left;	
+}
+.logo_area img{
+	margin-top: 30px;
+}
+.log_area{
+	width:40%;
+	float: left;
+}
+.log1 input, .log2 input{
+	display: table;
+	margin-top:3px;
+	padding:2px;
+	border: 1px solid #1d2a5b;
+}
+
+.log1, .log2, .log3{
+	float:left;
+	margin-top: 20px;
+	margin-right: 10px;
+	color: white;
+}
+.log3 input{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	padding: 3px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 22.5px;
+	color: white;
+}
+.log3 input:hover{
+	background: #365899;
+}
+.log1 label, .log2 label{
+	font-size: 12px;
+	cursor: pointer;
+}
+.log2 a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #6EA6D8;
+}
+.log2 a:hover{
+	text-decoration: underline;
+}
+
+.fbbody_area{
+	background:linear-gradient(#FFFFFF, #D4D9E9);
+}
+
+.body_left{
+	width:55%;
+	margin-top:48px;
+	float: left;
+}
+
+.body_left img{
+	margin-top: 15px;
+}
+.body_left h2{
+	color:#8A575F;
+	font-size: 20px;
+	width:90%;
+}
+
+.body_right{
+	width:38%;
+	float:left;
+}
+
+.body_right h1{
+	color: #333333;
+	margin-top: 20px;
+}
+
+.body_right p{
+	color:#666;
+	font-size: 19px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+.sign_area input{
+	display: block;
+	width:100%;
+	padding:8px 10px;
+	box-sizing: border-box;
+	margin-top: 8px;
+	border-radius: 5%;
+	border: 1px solid #bdc7d8;
+	color: black;
+	font-size: 20px;
+}
+
+.sign_area input:nth-child(1){
+	width:49%;
+	float: left;
+	margin-bottom: 8px
+}
+.sign_area input:nth-child(2){
+	width:49%;
+	float: right;
+	margin-bottom: 8px
+}
+.birthday{
+	overflow: hidden;
+}
+
+.birthday h2{
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	padding-top: 15px;
+	padding-bottom: 7px;
+}
+
+.birthday select{
+	padding: 5px;
+	border:1px solid #bdc7d8;
+	float:left;
+	margin-left: px;
+}
+
+.birthday a{
+	text-decoration: none;
+	color:#365899;
+	font-size: 11px;
+	width:150px;
+	display: inline-block;
+	margin-left: 8px;
+	margin-bottom: 20px;
+}
+
+.gender input{
+}
+.gender label{
+	font-size: 18px;
+	color: #222129;
+	margin-left: 3px;
+	margin-right: 18px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.gender p{
+	color:#777;
+	font-size: 11px;
+	width:316px;
+}
+
+.gender a{
+	text-decoration: none;
+	color:#5671C2;
+}
+
+.gender a:hover{
+	text-decoration: underline;
+}
+
+.button{
+	margin-bottom: 20px;
+}
+
+.button input{
+	padding: 7px 20px;
+	font-size: 19px;
+	font-weight: bold;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+	margin: 10px 0px;
+}
+.button input:hover{
+	background: #70AE5B;
+}
+
+.button p{	
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.button a{
+	text-decoration: none;
+	color:#555899;
+}
+.button a:hover{
+	text-decoration: underline;
+}
+.footer_area{}
+.language{
+	border-bottom: 1px solid #dddfe2;	
+}
+.language ul{
+	list-style:none;
+	
+}
+.language ul li{
+	display: inline-block;
+}
+
+
+.language ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #365899;
+	padding: 10px 5px;
+	display: block; 
+}
+
+.language ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer_area{
+	background: white;
+}
+.fotter_mid{}
+.fotter_mid ul{
+	list-style: none;
+}
+.fotter_mid ul li{
+	display: inline-block;
+	width:8.5%;
+}
+
+
+.fotter_mid ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #365899;
+	display: block;
+	padding: 4px 5px;
+}
+
+.fotter_mid ul li a:hover{
+	text-decoration: underline;
+}
+.fotter_mid1{
+	border-bottom: 1px solid #dddfe2;
+	margin-bottom: 15px;
+}
+.fotter_mid1 ul li a{
+	padding: 10px 5px;
+}
+.fotter_bottom{
+	padding-bottom: 20px;
+}
+.fotter_bottom p{
+	color: #737373;
+	font-size: 11px;
+	padding: 20px 0px;
+	margin-left: 5px;
+}

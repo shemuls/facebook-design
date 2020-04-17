@@ -1,0 +1,69 @@
+@media all and ( max-width: 1152px ){
+	.mid{
+		width:95%;
+	}
+}
+
+@media all and ( max-width: 970px ){
+	.logo_area{
+		width:100%;
+		float: none;
+	}
+
+	.logo_area img{
+		display: block;
+		margin: auto;
+	}
+
+	.log_area{
+		float: none;
+		display: table;
+		width: auto;
+		margin:auto;
+	}
+
+	.body_left{
+		display: none;
+	}
+
+	.body_right{
+		width:80%;
+		float: none;
+		margin:auto;
+	}
+
+	@media all and ( max-width: 500px ){
+		.fbbody_area{
+			display: none;
+		}
+
+		.footer_area{
+			display: none;
+		}
+
+		.log_area{
+			width:90%;
+			margin-top: 10px;
+		}
+
+		.log1, .log2, .log3{
+			float: none;
+			display: block;
+		}
+
+		.log1 input, .log2 input{
+			width:100%;
+		}
+		
+		.log3 input{
+			margin-top: -10px;
+		}
+
+		.fbheader_area{
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		
+	}
+}
